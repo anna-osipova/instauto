@@ -12,6 +12,12 @@ Now there is a GUI application for those who don't want to code: [SimpleInstaBot
 
 - Create a new directory with a file like [example.js](https://github.com/mifi/instauto/blob/master/example.js)
 
+- Add .env file with instagram credentials
+```
+INSTAGRAM_PASSWORD=
+INSTAGRAM_USERNAME=
+```
+
 - Adjust your `example.js` to your needs. If you want to see how it would work without doing any invasive actions, use the `dryRun: true` option. Toggle `headless` to see it in action.
 
 - Open a terminal in the directory
